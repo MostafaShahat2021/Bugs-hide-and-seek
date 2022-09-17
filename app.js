@@ -11,7 +11,7 @@ const myrec = document.getElementById("portfolio");
 const hr = document.querySelector(".hr-big");
 const form = document.getElementById("form");
 const email = document.getElementById("user_mail");
-// const msg = document.querySelector(".msg");
+const msg = document.querySelector(".msg");
 const useerName = document.getElementById("user_name");
 const text = document.getElementById("user_text");
 const nameValue = document.getElementById('user_name')
@@ -228,7 +228,7 @@ body.onload = () => {
   }
 };
 
-document.querySelectorAll('input, textarea').forEach((input) => {
+document.querySelectorAll('input').forEach((input) => {
   console.log(document.querySelectorAll('input'));
   input.addEventListener('input', (event) => {
     event.preventDefault();
